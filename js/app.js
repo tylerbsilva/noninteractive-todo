@@ -8,10 +8,16 @@ $(document).ready(function() {
   .on('click', '.addItem', function(){
     var item = $('input[name="itemInput"]').val().trim();
     if (item) {
-      $(".itemList").append("<li><input type='checkbox'>" + item + "<button>X</button></li>");
+      $(".itemList").append("<li><input type='checkbox'>" + item + ' <button class="remove">X</button></li>');
     }
     $(".itemInput").val('').focus();
 
+  })
+
+  // Remove Item
+  .on('click', '.remove', function(){
+    $(this).closest('li').remove();
+    $(".itemInput").val('').focus();
   });
 
   $('.addItem').submit( function(e) {
