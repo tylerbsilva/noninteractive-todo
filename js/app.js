@@ -8,7 +8,7 @@ $(document).ready(function() {
   .on('click', '.addItem', function(){
     var item = $('input[name="itemInput"]').val().trim();
     if (item) {
-      $(".itemList").append("<li><input type='checkbox' id='>" + item + "'><label for='" + item + "'>" + item + " </label><button class='remove'>X</button></li>");
+      $(".itemList").append("<li><input type='checkbox' class='checkbox' id='>" + item + "'><label for='" + item + "'>" + item + " </label><button class='remove'>X</button></li>");
     }
     $(".itemInput").val('').focus();
 
