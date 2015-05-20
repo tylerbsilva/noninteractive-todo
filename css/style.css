@@ -68,14 +68,15 @@ li {
 }
 
 
-.list input[type=checkbox] {
+input[type=checkbox] {
 	margin: 0 1rem;
 }
 
-.list input[type=input] {
+input[type=input] {
 	width: 95%;
 	margin: 0 auto;
 	padding: 0;
+}
 
 input {
 	margin: 0 1rem;
