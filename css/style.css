@@ -56,8 +56,11 @@ li {
   width: 100%;
   height: 2rem;
 }
-input[type=checkbox] {
+.checkbox {
   margin: 0 1rem;
+}
+:checked + label {
+  text-decoration: line-through;
 }
 input[type=input] {
   width: 95%;
