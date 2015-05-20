@@ -1,5 +1,5 @@
-/* 
-	Colors: 
+/*
+	Colors:
 		DK BLUE: #2F8DFF;
 		GREY: #363636;
 		LT BLUE: #86D9FF;
@@ -67,7 +67,7 @@ li {
 	height: 2rem;
 }
 
-<<<<<<< HEAD
+
 .list input[type=checkbox] {
 	margin: 0 1rem;
 }
@@ -76,7 +76,7 @@ li {
 	width: 95%;
 	margin: 0 auto;
 	padding: 0;
-=======
+
 input {
 	margin: 0 1rem;
 }
@@ -85,7 +85,7 @@ span {
 	color: #EE0000;
 	margin: 0 auto;
 }
+
 button {
 	float: right;
->>>>>>> f7c6efc69137635e152cf92831373040d929a076
 }
