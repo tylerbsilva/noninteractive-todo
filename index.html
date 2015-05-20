@@ -7,39 +7,33 @@
 	<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-	<div class="content">
+	<main>
 		<header>
 			<h1>TO DO LIST</h1>
 			<p>Here is a simple app to help you track what you need to do.</p>
 			<hr>
 		</header>
-		<section class="list">
+		<section>
 			<ul>
 				<li>
 					<input type="checkbox" name="check" id="c1" checked>
 					Don't ignore your dreams
+					<button>X</button>
 				</li>
 				<li>
-					<input type="checkbox" name="check" id="c1" checked>
+					<input type="checkbox" name="check" id="c1">
 					Don't work so much
-				</li>
-				<li>
-					<input type="checkbox" name="check" id="c1" checked>
-					Say what you think
-				</li>
-				<li>
-					<input type="checkbox" name="check" id="c1" checked>
-					Cultivate friendships
-				</li>
-				<li>
-					<input type="checkbox" name="check" id="c1" checked>
-					Be happy
+					<button>X</button>
 				</li>
 				<li>
 					<input type="input" name="check" id="add" value="Add an item">
 				</li>
 			</ul>
+			<form class="addItem">
+				<input type="text" name="itemInput" class="itemInput">
+				<label for="itemInput"><input type="submit" class="addToList" value="Add Item"></label>
+			</form>
 		</section>
-	</div>
+	</main>
 </body>
 </html>
